@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/frontend/",
+  base: "/desparkles-frontend/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
