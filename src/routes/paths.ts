@@ -1,0 +1,17 @@
+export const paths = {
+  home: "/",
+  shop: "/shop",
+  styleMatch: "/style-match",
+  giftBox: "/gift-box",
+  customOrders: "/custom-orders",
+  cart: "/cart",
+  checkout: "/checkout",
+  wishlist: "/wishlist",
+  about: "/about",
+  faq: "/faq",
+  contact: "/contact",
+  login: "/login",
+  register: "/register",
+  forgotPassword: "/forgot-password",
+  product: (id: number, slug: string) => `/products/${id}-${slug}`,
+};
